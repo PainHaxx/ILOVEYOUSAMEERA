@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffccff; /* Light pink background */
+}
+
+.container {
+    text-align: center;
+}
+
+.kuromi-sticker {
+    width: 150px; /* Adjust the size of the Kuromi sticker */
+    height: 150px;
+}
+
+.click-button {
+    margin-top: 50px; /* Add margin to separate the button from the sticker */
+    padding: 20px 40px; /* Adjust the padding to make the button bigger */
+    font-size: 24px; /* Adjust the font size of the button text */
+    background-color: #333; /* Dark button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.click-button:hover {
+    background-color: #555; /* Darker button color on hover */
+}

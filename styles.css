@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffe0f0; /* Light pink background */
+}
+
+.container {
+    position: relative;
+}
+
+.sticker {
+    position: absolute;
+    top: -100px; /* Adjust the sticker's position higher */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; /* Set the z-index higher than the apology-box */
+}
+
+.sticker img {
+    width: 200px; /* Adjust the size of the sticker */
+    height: 200px;
+    border-radius: 8px; /* Make the sticker square with rounded corners */
+}
+
+.apology-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Set the z-index lower than the sticker */
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
